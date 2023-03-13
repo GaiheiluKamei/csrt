@@ -15,7 +15,6 @@ func correctSRT(input, output, delimiter string) error {
 		delimiter = "\n"
 	}
 
-	fmt.Printf("%#v", delimiter)
 	f, err := os.ReadFile(input)
 	if err != nil {
 		return err
